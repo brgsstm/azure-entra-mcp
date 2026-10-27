@@ -1,0 +1,11 @@
+tenant_id       = "00000000-0000-0000-0000-000000000000"
+subscription_id = "00000000-0000-0000-0000-000000000000"
+location        = "uksouth"
+name_prefix     = "azmcp"
+
+# Only members of these groups can sign in to the MCP server.
+allowed_group_object_ids = [
+  "00000000-0000-0000-0000-000000000000", # e.g. "Platform Team"
+]
+
+# custom_domain = "mcp.example.co.uk"
